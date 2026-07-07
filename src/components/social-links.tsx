@@ -1,17 +1,16 @@
-import { Github, Linkedin, Mail } from "lucide-react";
+import { Mail } from "lucide-react";
 import { profile } from "@/lib/data";
 
 export function SocialLinks() {
 return (
-<div className="flex items-center gap-4">
+<div className="flex flex-wrap items-center gap-3">
     <a
     href={profile.github}
     target="_blank"
     rel="noreferrer"
-    aria-label="GitHub"
-    className="text-zinc-500 transition hover:text-zinc-950 dark:hover:text-white"
+    className="rounded-full border border-zinc-300 px-4 py-2 text-sm font-medium text-zinc-700 transition hover:bg-zinc-100 dark:border-zinc-700 dark:text-zinc-300 dark:hover:bg-zinc-900"
     >
-    <Github size={20} />
+    GitHub
     </a>
 
     {profile.linkedin ? (
@@ -19,19 +18,18 @@ return (
         href={profile.linkedin}
         target="_blank"
         rel="noreferrer"
-        aria-label="LinkedIn"
-        className="text-zinc-500 transition hover:text-zinc-950 dark:hover:text-white"
+        className="rounded-full border border-zinc-300 px-4 py-2 text-sm font-medium text-zinc-700 transition hover:bg-zinc-100 dark:border-zinc-700 dark:text-zinc-300 dark:hover:bg-zinc-900"
     >
-        <Linkedin size={20} />
+        LinkedIn
     </a>
     ) : null}
 
     <a
     href={`mailto:${profile.email}`}
-    aria-label="Email"
-    className="text-zinc-500 transition hover:text-zinc-950 dark:hover:text-white"
+    className="inline-flex items-center gap-2 rounded-full border border-zinc-300 px-4 py-2 text-sm font-medium text-zinc-700 transition hover:bg-zinc-100 dark:border-zinc-700 dark:text-zinc-300 dark:hover:bg-zinc-900"
     >
-    <Mail size={20} />
+    <Mail size={15} />
+    Email
     </a>
 </div>
 );
