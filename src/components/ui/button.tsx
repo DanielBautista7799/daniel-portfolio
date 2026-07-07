@@ -8,16 +8,16 @@ type ButtonProps = React.ButtonHTMLAttributes<HTMLButtonElement> & {
 variant?: ButtonVariant;
 };
 
-const variantClasses: Record<ButtonVariant, string> = {
-default:
-"bg-white text-black hover:bg-zinc-200 dark:bg-white dark:text-black",
-secondary:
-"bg-zinc-900 text-white hover:bg-zinc-800 dark:bg-zinc-100 dark:text-black",
-outline:
-"border border-zinc-300 bg-transparent text-zinc-900 hover:bg-zinc-100 dark:border-zinc-700 dark:text-zinc-100 dark:hover:bg-zinc-900",
-ghost:
-"bg-transparent text-zinc-700 hover:bg-zinc-100 dark:text-zinc-300 dark:hover:bg-zinc-900",
-};
+    const variantClasses: Record<ButtonVariant, string> = {
+        default:
+        "bg-zinc-950 text-white shadow-lg shadow-zinc-950/10 hover:bg-zinc-800 dark:bg-white dark:text-black dark:hover:bg-zinc-200",
+        secondary:
+        "bg-zinc-100 text-zinc-950 hover:bg-zinc-200 dark:bg-zinc-900 dark:text-white dark:hover:bg-zinc-800",
+        outline:
+        "border border-zinc-300 bg-white/60 text-zinc-900 backdrop-blur hover:bg-zinc-100 dark:border-zinc-700 dark:bg-zinc-950/40 dark:text-zinc-100 dark:hover:bg-zinc-900",
+        ghost:
+        "bg-transparent text-zinc-700 hover:bg-zinc-100 dark:text-zinc-300 dark:hover:bg-zinc-900",
+    };
 
 export function Button({
 className,
