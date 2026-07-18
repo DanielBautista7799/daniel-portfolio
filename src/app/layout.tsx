@@ -16,7 +16,12 @@ export const metadata: Metadata = {
   title: "Daniel B. Islas | Software Engineer Portfolio",
   description:
     "Software engineering portfolio for Daniel B. Islas, focused on full-stack development, machine learning, database systems, and AI-assisted applications.",
+    icons: {
+      icon: "/favicon.svg",
+      shortcut: "/favicon.svg",
+    },
 };
+
 
 export default function RootLayout({
   children,
