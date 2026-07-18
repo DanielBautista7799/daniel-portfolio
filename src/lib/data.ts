@@ -6,7 +6,7 @@ location: "Chapel Hill, North Carolina",
 
 email: "danielb7799@gmail.com",
 
-github: "",
+github: "https://github.com/DanielBautista7799",
 
 linkedin: "https://www.linkedin.com/in/danielb7799/",
 

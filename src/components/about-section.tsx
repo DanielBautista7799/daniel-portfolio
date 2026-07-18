@@ -1,4 +1,5 @@
-import { about, education } from "@/lib/data";
+import { about, education, spokenLanguages } from "@/lib/data";
+import { Badge } from "@/components/ui/badge";
 import { Card } from "@/components/ui/card";
 import { SectionHeading } from "@/components/section-heading";
 
@@ -11,7 +12,7 @@ return (
     description="I care about projects that are useful, polished, and explainable."
     />
 
-    <div className="grid gap-6 md:grid-cols-[1.5fr_1fr]">
+    <div className="grid gap-6 lg:grid-cols-[1.4fr_1fr]">
     <Card>
         <p className="text-lg leading-8 text-zinc-700 dark:text-zinc-300">
         {about.trim()}
@@ -25,13 +26,37 @@ return (
 
         <h3 className="mt-4 text-xl font-bold">{education.school}</h3>
 
-        <p className="mt-2 text-zinc-600 dark:text-zinc-400">
+        <p className="mt-2 text-zinc-700 dark:text-zinc-300">
         {education.degree}
         </p>
 
-        <p className="mt-2 text-sm text-zinc-500">
-        {education.graduation}
+        <p className="mt-2 text-sm text-zinc-500">{education.graduation}</p>
+
+        <div className="mt-6">
+        <p className="text-sm font-semibold text-zinc-900 dark:text-white">
+            Awards
         </p>
+
+        <div className="mt-3 flex flex-wrap gap-2">
+            {education.awards.map((award) => (
+            <Badge key={award}>{award}</Badge>
+            ))}
+        </div>
+        </div>
+
+        <div className="mt-6">
+        <p className="text-sm font-semibold text-zinc-900 dark:text-white">
+            Languages
+        </p>
+
+        <div className="mt-3 flex flex-wrap gap-2">
+            {spokenLanguages.map((item) => (
+            <Badge key={item.language}>
+                {item.language} · {item.proficiency}
+            </Badge>
+            ))}
+        </div>
+        </div>
     </Card>
     </div>
 </section>
