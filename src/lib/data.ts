@@ -184,8 +184,7 @@ export const projects = [
     "Evaluated multiclass models using chronological splits, log loss, F1 score, and confusion matrices.",
     ],
 
-    github: "",
-
+    github: "https://github.com/DanielBautista7799/fifa-world-cup-ml",
     live: "https://fifa-world-cup-ml.streamlit.app/",
 },
 
@@ -213,8 +212,7 @@ export const projects = [
     "Validated production workflows with Vitest, Playwright, security tests, and regression testing.",
     ],
 
-    github: "",
-
+    github: "https://github.com/DanielBautista7799/jacket-checker",
     live: "https://jacketchecker.netlify.app/",
 },
 
