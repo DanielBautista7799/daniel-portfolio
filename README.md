@@ -4,7 +4,7 @@ Professional software engineering portfolio built to showcase my projects, exper
 
 ## Live Site
 
-https://daniel-portfolio-nu-nine.vercel.app/
+https://daniel-b-islas.com
 
 ## About
 

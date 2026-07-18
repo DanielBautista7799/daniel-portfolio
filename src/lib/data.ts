@@ -296,7 +296,7 @@ export const projects = [
 
     github: "https://github.com/DanielBautista7799/daniel-portfolio",
 
-    live: "",
+    live: "https://daniel-b-islas.com",
 },
 
 {
