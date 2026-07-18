@@ -1,14 +1,18 @@
 export const profile = {
-name: "Daniel Bautista",
+name: "Daniel B. Islas",
 title: "Software Engineer | Full-Stack Developer | Machine Learning",
 
 location: "Chapel Hill, North Carolina",
 
 email: "danielb7799@gmail.com",
 
+phone: "336.488.3767",
+
 github: "https://github.com/DanielBautista7799",
 
 linkedin: "https://www.linkedin.com/in/danielb7799/",
+
+linkedinLabel: "daniel-b-islas",
 
 resume: "/resume",
 };
@@ -31,10 +35,10 @@ graduation: "May 2026",
 
 computerScienceCoursework: [
     "Artificial Intelligence",
-    "Introduction to Machine Learning",
+    "Intro to Machine Learning",
     "Data Structures and Algorithms",
     "Files and Databases",
-    "Systems Programming",
+    "System Programming",
     "Models of Languages and Computation",
 ],
 
@@ -48,6 +52,7 @@ businessCoursework: [
 awards: [
     "Colonel John H. Robinson Scholarship",
     "Edward M. Armfield Sr. Foundation Scholarship",
+    "Dean's List",
 ],
 };
 
@@ -73,7 +78,6 @@ frontend: [
 
 backend: [
     "Node.js",
-    "Express.js",
     "FastAPI",
     "REST APIs",
     "PostgreSQL",
@@ -81,6 +85,9 @@ backend: [
 ],
 
 machineLearning: [
+    "PyTorch",
+    "TensorFlow",
+    "Keras",
     "scikit-learn",
     "Pandas",
     "NumPy",
@@ -124,13 +131,13 @@ export const experience = [
     location: "Chapel Hill, NC",
 
     description:
-    "Supported more than 100 students in an advanced C++ database systems course while helping develop projects, assessments, and course materials.",
+    "Supported more than 100 students in COMP 421, an advanced C++ database systems course, while helping develop projects, assessments, and course materials.",
 
     highlights: [
-    "Supported 100+ students through in-class instruction and one-on-one office hours covering buffer management, indexing, query execution, transactions, recovery, and concurrency.",
+    "Supported 100+ students through in-class instruction and one-on-one office hours for COMP 421, covering buffer management, indexing, query execution, transactions, recovery, and concurrency.",
     "Co-developed and maintained four C++ database projects implementing HyperLogLog, buffer pool management, concurrent B+ trees, and SQL query execution.",
-    "Created automated tests and grading rubrics to evaluate correctness, edge cases, and project performance.",
-    "Developed exams, practice problems, and solution keys while leading review sessions and helping students debug and optimize their implementations.",
+    "Created automated tests and grading rubrics to evaluate correctness and edge cases.",
+    "Collaborated with course staff to develop exams, practice problems, and solution keys; led review sessions and supported students with debugging, performance optimization, and complex DBMS concepts.",
     ],
 },
 
@@ -167,12 +174,11 @@ export const projects = [
     "Python",
     "scikit-learn",
     "Pandas",
-    "NumPy",
     "Streamlit",
     ],
 
     highlights: [
-    "Built a pipeline that predicts home win, draw, and away win probabilities using historical international match data.",
+    "Built an end-to-end machine learning pipeline using historical international matches to predict home win, draw, and away win probabilities and simulate tournament outcomes.",
     "Engineered Elo, recent-form, scoring, rest, tournament, and head-to-head features.",
     "Implemented logistic regression and gradient descent from scratch.",
     "Evaluated multiclass models using chronological splits, log loss, F1 score, and confusion matrices.",
@@ -189,22 +195,22 @@ export const projects = [
     dates: "January 2026 – June 2026",
 
     description:
-    "Production full-stack application that analyzes weather forecasts, user preferences, and private wardrobe data to recommend appropriate jackets.",
+    "Production full-stack application that analyzes live forecasts, user profiles, and private wardrobe data to recommend appropriate jackets.",
 
     technologies: [
     "React",
     "Supabase",
     "PostgreSQL",
     "Gemini API",
-    "Playwright",
     "Vitest",
+    "Playwright",
     ],
 
     highlights: [
-    "Built and deployed a recommendation application that returns up to three ranked jackets from a user's private wardrobe.",
-    "Implemented authentication, PostgreSQL Row Level Security, private Storage, and Supabase Edge Functions.",
-    "Added AI image analysis, vector embeddings, live forecast integration, and deterministic recommendation scoring.",
-    "Validated production workflows with unit, end-to-end, security, and regression testing.",
+    "Built and deployed a production full-stack application that analyzes live forecasts and user profiles through a deterministic ranking algorithm.",
+    "Recommended up to three jackets from a user's private wardrobe.",
+    "Implemented AI image analysis, vector embeddings, authentication, PostgreSQL Row Level Security, private Storage, and Supabase Edge Functions.",
+    "Validated production workflows with Vitest, Playwright, security tests, and regression testing.",
     ],
 
     github: "",
@@ -218,7 +224,7 @@ export const projects = [
     dates: "January 2025 – May 2025",
 
     description:
-    "Full-stack course support feature that uses previously resolved tickets to provide contextual AI-generated suggestions to students.",
+    "Full-stack AI-assisted course support feature that uses previously resolved tickets to generate contextual suggestions for students requesting technical help.",
 
     technologies: [
     "FastAPI",
@@ -229,10 +235,10 @@ export const projects = [
     ],
 
     highlights: [
-    "Generated contextual assistance using solutions from previously resolved office-hours tickets.",
-    "Implemented RESTful FastAPI endpoints using SQLAlchemy and Pydantic.",
+    "Developed a full-stack AI-assisted feature that uses solutions from previously resolved tickets to generate contextual suggestions for students requesting technical support.",
+    "Implemented RESTful FastAPI endpoints with SQLAlchemy and Pydantic.",
     "Built Angular components using Signals and dialog modals.",
-    "Added workflows for saving TA solutions, collecting feedback, and resolving student tickets.",
+    "Created workflows to save TA solutions, collect feedback, and support ticket resolution.",
     ],
 
     github: "",
@@ -267,9 +273,17 @@ export const projects = [
 },
 ];
 
-export const certifications: {
-name: string;
-issuer: string;
-date: string;
-credentialUrl: string;
-}[] = [];
+export const certifications = [
+{
+    name: "IBM Deep Learning with PyTorch, Keras and TensorFlow Professional Certificate",
+    issuer: "IBM / Coursera",
+    date: "July 2026",
+    credentialUrl: "",
+},
+{
+    name: "Google AI Professional Certificate",
+    issuer: "Google / Coursera",
+    date: "July 2026",
+    credentialUrl: "",
+},
+];
