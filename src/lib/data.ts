@@ -331,12 +331,21 @@ export const certifications = [
     name: "IBM Deep Learning with PyTorch, Keras and TensorFlow Professional Certificate",
     issuer: "IBM / Coursera",
     date: "July 2026",
-    credentialUrl: "",
+    credentialUrl:
+    "https://www.coursera.org/account/accomplishments/professional-cert/certificate/JTQW7KY2O1LC",
 },
 {
     name: "Google AI Professional Certificate",
     issuer: "Google / Coursera",
     date: "July 2026",
-    credentialUrl: "",
+    credentialUrl:
+    "https://www.coursera.org/account/accomplishments/professional-cert/certificate/PDQN5SZYH3I4",
+},
+{
+    name: "Google AI Essentials",
+    issuer: "Google / Coursera",
+    date: "July 2026",
+    credentialUrl:
+    "https://www.coursera.org/account/accomplishments/specialization/certificate/ODPAR0LMTFOJ",
 },
 ];

@@ -169,20 +169,31 @@ return (
         <h2 className="text-lg font-bold">Certifications</h2>
 
         <div className="mt-3 space-y-3">
-            {certifications.map((certification) => (
-            <div
+                {certifications.map((certification) => (
+                <div
                 key={certification.name}
                 className="flex justify-between gap-4"
-            >
+                >
+                <div>
                 <p className="font-semibold">
                 {certification.name} | {certification.issuer}
                 </p>
 
-                <p className="text-sm text-zinc-500">
-                {certification.date}
-                </p>
-            </div>
-            ))}
+                {certification.credentialUrl ? (
+                <a
+                href={certification.credentialUrl}
+                target="_blank"
+                rel="noreferrer"
+                className="text-sm text-zinc-500 underline underline-offset-4 transition hover:text-zinc-950 dark:hover:text-white"
+                >
+                View Credential
+                </a>
+                ) : null}
+                </div>
+
+                <p className="text-sm text-zinc-500">{certification.date}</p>
+                </div>
+                ))}
         </div>
         </section>
     ) : null}
