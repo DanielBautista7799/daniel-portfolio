@@ -1,6 +1,6 @@
-# Daniel Bautista Portfolio
+# Daniel B. Islas Portfolio
 
-Professional software engineering portfolio built to showcase my projects, experience, education, and technical skills.
+Professional software engineering portfolio built to showcase my projects, experience, education, certifications, and technical skills.
 
 ## Live Site
 
@@ -8,14 +8,16 @@ https://daniel-b-islas.com
 
 ## About
 
-This portfolio highlights my work across full-stack development, machine learning, systems programming, and software engineering fundamentals.
+This portfolio highlights my work across full-stack development, machine learning, database systems, AI-assisted applications, and software engineering fundamentals.
 
 It includes featured projects such as:
 
-- FIFA World Cup ML Predictor
+- FIFA World Cup Match Predictor
 - Jacket Checker
-- Blind 75 / algorithm practice
-- Additional software engineering projects
+- AI-Powered Office Hours Ticketing System
+- Trading Bot Baseline
+- Blind 75 Interview Practice
+- Professional Portfolio Website
 
 ## Tech Stack
 
@@ -31,10 +33,13 @@ It includes featured projects such as:
 - Dark and light mode
 - Project cards with live demo and GitHub links
 - Experience section
-- Education section
+- Education and coursework sections
 - Skills section
+- Certifications section
 - Contact section
 - Printable resume page
+- Custom domain deployment
+- Production security headers
 
 ## Getting Started
 
