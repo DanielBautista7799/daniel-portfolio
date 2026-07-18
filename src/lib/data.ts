@@ -241,7 +241,62 @@ export const projects = [
     "Created workflows to save TA solutions, collect feedback, and support ticket resolution.",
     ],
 
-    github: "",
+    github: "https://github.com/DanielBautista7799/a07-alias-team-11",
+
+    live: "",
+},
+
+{
+    title: "Trading Bot Baseline",
+
+    dates: "2026",
+
+    description:
+    "Algorithmic trading baseline that connects market data, broker APIs, and machine learning tooling to experiment with automated trading strategies.",
+
+    technologies: [
+    "Python",
+    "Lumibot",
+    "Alpaca API",
+    "PyTorch",
+    "Transformers",
+    ],
+
+    highlights: [
+    "Created a baseline trading model using Lumibot as the algorithmic trading framework.",
+    "Integrated Alpaca trade APIs for market data access and broker-side trade execution.",
+    "Used Python datetime utilities to manage date formatting, time windows, and date-difference calculations.",
+    "Set up PyTorch and transformer-based tooling to experiment with finance-focused machine learning models.",
+    ],
+
+    github: "https://github.com/DanielBautista7799/Trading-Bot",
+
+    live: "",
+},
+
+{
+    title: "Professional Portfolio Website",
+
+    dates: "July 2026",
+
+    description:
+    "Personal software engineering portfolio built to showcase projects, experience, education, certifications, and technical skills in one professional hub.",
+
+    technologies: [
+    "Next.js",
+    "TypeScript",
+    "Tailwind CSS",
+    "React",
+    "Vercel",
+    ],
+
+    highlights: [
+    "Built a responsive portfolio using a modern Next.js and TypeScript stack.",
+    "Created reusable UI components, dark mode, project cards, resume page, and centralized content data.",
+    "Designed the site to support GitHub links, live demos, certifications, coursework, and professional experience.",
+    ],
+
+    github: "https://github.com/DanielBautista7799/daniel-portfolio",
 
     live: "",
 },
@@ -267,7 +322,7 @@ export const projects = [
     "Created focused tests for completed solutions.",
     ],
 
-    github: "",
+    github: "https://github.com/DanielBautista7799/blind-75-python",
 
     live: "",
 },
