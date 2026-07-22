@@ -163,28 +163,30 @@ export const experience = [
 
 export const projects = [
 {
+
     title: "FIFA World Cup Match Predictor",
-
-    dates: "June 2026 – Present",
-
+    
+    dates: "June 2026 – July 2026",
+    
     description:
-    "End-to-end machine learning system that predicts international football match outcomes and simulates tournament results.",
-
+        "Completed machine learning forecasting project that predicted international football match outcomes, simulated tournament paths, and compared projections against final results.",
+    
     technologies: [
-    "Python",
-    "scikit-learn",
-    "Pandas",
-    "Streamlit",
+        "Python",
+        "scikit-learn",
+        "Pandas",
+        "Streamlit",
     ],
-
+    
     highlights: [
-    "Built an end-to-end machine learning pipeline using historical international matches to predict home win, draw, and away win probabilities and simulate tournament outcomes.",
-    "Engineered Elo, recent-form, scoring, rest, tournament, and head-to-head features.",
-    "Implemented logistic regression and gradient descent from scratch.",
-    "Evaluated multiclass models using chronological splits, log loss, F1 score, and confusion matrices.",
+        "Built an end-to-end machine learning pipeline using historical international matches to predict home win, draw, and away win probabilities.",
+        "Engineered Elo, recent-form, scoring, rest, tournament, and head-to-head features to model team strength and match context.",
+        "Implemented logistic regression and gradient descent from scratch before comparing against scikit-learn multiclass models.",
+        "Added post-tournament forecast accountability by comparing saved projections against final tournament results.",
     ],
-
+    
     github: "https://github.com/DanielBautista7799/fifa-world-cup-ml",
+    
     live: "https://fifa-world-cup-ml.streamlit.app/",
 },
 
