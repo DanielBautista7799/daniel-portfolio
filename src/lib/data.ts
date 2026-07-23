@@ -193,7 +193,7 @@ export const projects = [
 {
     title: "Jacket Checker",
 
-    dates: "January 2026 – June 2026",
+    dates: "January 2026 – July 2026",
 
     description:
     "Production full-stack application that analyzes live forecasts, user profiles, and private wardrobe data to recommend appropriate jackets.",
