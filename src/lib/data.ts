@@ -161,6 +161,9 @@ export const experience = [
 },
 ];
 
+
+//next plan is to add in a tab which states weather project is idle or active
+//only going to be added to projects with working links and for ease of use potetnial reminders to keep active
 export const projects = [
 {
 
