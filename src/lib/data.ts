@@ -249,6 +249,35 @@ export const projects = [
 
     live: "",
 },
+{
+    title: "MedFlow Clinical Equipment Command Center",
+
+    dates: "August 2026 – September 2026",
+
+    description:
+    "Full-stack clinical equipment management system for tracking medical devices, work orders, facilities, and operational equipment data across healthcare locations.",
+
+    technologies: [
+        "React",
+        "FastAPI",
+        "PostgreSQL",
+        "SQLAlchemy",
+        "Material UI",
+        "JWT",
+    ],
+
+    highlights: [
+        "Built a full-stack clinical equipment command center with a React frontend and FastAPI backend.",
+        "Designed PostgreSQL data models for hospitals, medical equipment, work orders, and service reports using SQLAlchemy.",
+        "Implemented REST API endpoints with Pydantic validation, authentication, and role-based access control.",
+        "Built interactive equipment and work order interfaces using Material UI and MUI DataGrid.",
+    ],
+
+    github: "https://github.com/DanielBautista7799/medflow",
+
+    live: "",
+},
+
 
 {
     title: "Trading Bot Baseline",
