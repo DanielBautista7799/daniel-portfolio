@@ -13,6 +13,7 @@ github: string;
 live: string;
 };
 
+//add in curretn status of project
 export function ProjectCard({
 title,
 dates,
