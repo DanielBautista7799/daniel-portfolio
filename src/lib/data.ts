@@ -192,6 +192,7 @@ export const projects = [
     github: "https://github.com/DanielBautista7799/fifa-world-cup-ml",
     
     live: "https://fifa-world-cup-ml.streamlit.app/",
+    status: "Active",
 },
 
 {
@@ -220,6 +221,7 @@ export const projects = [
 
     github: "https://github.com/DanielBautista7799/jacket-checker",
     live: "https://jacketchecker.netlify.app/",
+    status: "Active",
 },
 
 {
@@ -248,6 +250,7 @@ export const projects = [
     github: "https://github.com/DanielBautista7799/a07-alias-team-11",
 
     live: "",
+    
 },
 {
     title: "MedFlow Clinical Equipment Command Center",
@@ -332,6 +335,7 @@ export const projects = [
     github: "https://github.com/DanielBautista7799/daniel-portfolio",
 
     live: "https://daniel-b-islas.com",
+    status: "Active",
 },
 
 {
