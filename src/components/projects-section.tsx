@@ -10,7 +10,21 @@ return (
     title="Selected work"
     description="A mix of full-stack applications, machine learning projects, and technical practice built to show range."
     />
+<div className="mb-6 flex flex-wrap gap-3 text-sm text-zinc-500">
+    <span>
+        <strong className="text-emerald-600 dark:text-emerald-400">
+            Active
+        </strong>{" "}
+        — Live deployment available
+    </span>
 
+    <span>
+        <strong className="text-amber-600 dark:text-amber-400">
+            Idle
+        </strong>{" "}
+        — Deployment temporarily inactive
+    </span>
+</div>
     <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
     {projects.map((project) => (
         <ProjectCard key={project.title} {...project} />
